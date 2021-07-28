@@ -1,4 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 header {
-    height: 100px;
-    background-color: aqua;
+    height: 55px;
+    background-color: #0067A3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.leftWrapper{
+    display: flex;
+}
+
+.rightWrapper{
+    display: flex;
+}
+
+
+.board-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    margin: 7px 10px 13px 10px;
+}
+
+.board-setting {
+    margin: 10px 10px 10px 10px;
+}
+
+.create-list-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-radius: 15px;
+    height: 35px;
+    width: 200px;
+    outline-width:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+
+    
+}
+
+.create-list-button-icon {
+    margin: 0px 5px;
+}
+
+.profile-setting {
+    margin: 0px 15px;
+}
+
+.profile-setting-vector {
+    height: 39px;
+    width: 39px;
+    background-color:white;
+    border-radius: 100%;
+}
+
+#profile-vector {
+    position: relative;
+    left: 5.6px;
+    top: 3px;
+}
+

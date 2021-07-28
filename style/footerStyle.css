@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+footer {
+    height: 55px;
+    background-color: #0067A3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    justify-content: space-between;
+    display: flex;
+    color:white;
+}
+
+.tasks-counters {
+
+    display:flex;
+    align-items:center;
+    margin: 0px 0px 0px 64px;
+}
+
+.active-tasks-counter {
+    margin-right: 10px ;
+}
+
+.kanban-info {
+    display:flex;
+    align-items:center; 
+    margin: 0px 24px 0px 0px;
+}

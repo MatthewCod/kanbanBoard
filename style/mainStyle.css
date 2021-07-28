@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
+    height: 100%;
+    background-color:#0079BF;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
+
